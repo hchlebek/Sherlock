@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0EEE921DF85E3F007BB4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EEE911DF85E3F007BB4D2 /* AppDelegate.swift */; };
+		3F0EEE941DF85E3F007BB4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EEE931DF85E3F007BB4D2 /* ViewController.swift */; };
+		3F0EEE971DF85E3F007BB4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0EEE951DF85E3F007BB4D2 /* Main.storyboard */; };
+		3F0EEE991DF85E3F007BB4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0EEE981DF85E3F007BB4D2 /* Assets.xcassets */; };
+		3F0EEE9C1DF85E3F007BB4D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0EEE9A1DF85E3F007BB4D2 /* LaunchScreen.storyboard */; };
+		3F0EEEA71DF85E40007BB4D2 /* SherlockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EEEA61DF85E40007BB4D2 /* SherlockAppTests.swift */; };
+		3F0EEEB21DF85E40007BB4D2 /* SherlockAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EEEB11DF85E40007BB4D2 /* SherlockAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0EEEA31DF85E40007BB4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0EEE861DF85E3F007BB4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0EEE8D1DF85E3F007BB4D2;
+			remoteInfo = SherlockApp;
+		};
+		3F0EEEAE1DF85E40007BB4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0EEE861DF85E3F007BB4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0EEE8D1DF85E3F007BB4D2;
+			remoteInfo = SherlockApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0EEE8E1DF85E3F007BB4D2 /* SherlockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SherlockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0EEE911DF85E3F007BB4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0EEE931DF85E3F007BB4D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0EEE961DF85E3F007BB4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0EEE981DF85E3F007BB4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0EEE9B1DF85E3F007BB4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0EEE9D1DF85E3F007BB4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0EEEA21DF85E40007BB4D2 /* SherlockAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SherlockAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0EEEA61DF85E40007BB4D2 /* SherlockAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAppTests.swift; sourceTree = "<group>"; };
+		3F0EEEA81DF85E40007BB4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0EEEAD1DF85E40007BB4D2 /* SherlockAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SherlockAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0EEEB11DF85E40007BB4D2 /* SherlockAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAppUITests.swift; sourceTree = "<group>"; };
+		3F0EEEB31DF85E40007BB4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0EEE8B1DF85E3F007BB4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EEE9F1DF85E40007BB4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EEEAA1DF85E40007BB4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0EEE851DF85E3F007BB4D2 = {
+			isa = PBXGroup;
+			children = (
+				3F0EEE901DF85E3F007BB4D2 /* SherlockApp */,
+				3F0EEEA51DF85E40007BB4D2 /* SherlockAppTests */,
+				3F0EEEB01DF85E40007BB4D2 /* SherlockAppUITests */,
+				3F0EEE8F1DF85E3F007BB4D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0EEE8F1DF85E3F007BB4D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0EEE8E1DF85E3F007BB4D2 /* SherlockApp.app */,
+				3F0EEEA21DF85E40007BB4D2 /* SherlockAppTests.xctest */,
+				3F0EEEAD1DF85E40007BB4D2 /* SherlockAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0EEE901DF85E3F007BB4D2 /* SherlockApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F0EEE911DF85E3F007BB4D2 /* AppDelegate.swift */,
+				3F0EEE931DF85E3F007BB4D2 /* ViewController.swift */,
+				3F0EEE951DF85E3F007BB4D2 /* Main.storyboard */,
+				3F0EEE981DF85E3F007BB4D2 /* Assets.xcassets */,
+				3F0EEE9A1DF85E3F007BB4D2 /* LaunchScreen.storyboard */,
+				3F0EEE9D1DF85E3F007BB4D2 /* Info.plist */,
+			);
+			path = SherlockApp;
+			sourceTree = "<group>";
+		};
+		3F0EEEA51DF85E40007BB4D2 /* SherlockAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0EEEA61DF85E40007BB4D2 /* SherlockAppTests.swift */,
+				3F0EEEA81DF85E40007BB4D2 /* Info.plist */,
+			);
+			path = SherlockAppTests;
+			sourceTree = "<group>";
+		};
+		3F0EEEB01DF85E40007BB4D2 /* SherlockAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0EEEB11DF85E40007BB4D2 /* SherlockAppUITests.swift */,
+				3F0EEEB31DF85E40007BB4D2 /* Info.plist */,
+			);
+			path = SherlockAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0EEE8D1DF85E3F007BB4D2 /* SherlockApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0EEEB61DF85E40007BB4D2 /* Build configuration list for PBXNativeTarget "SherlockApp" */;
+			buildPhases = (
+				3F0EEE8A1DF85E3F007BB4D2 /* Sources */,
+				3F0EEE8B1DF85E3F007BB4D2 /* Frameworks */,
+				3F0EEE8C1DF85E3F007BB4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SherlockApp;
+			productName = SherlockApp;
+			productReference = 3F0EEE8E1DF85E3F007BB4D2 /* SherlockApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0EEEA11DF85E40007BB4D2 /* SherlockAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0EEEB91DF85E40007BB4D2 /* Build configuration list for PBXNativeTarget "SherlockAppTests" */;
+			buildPhases = (
+				3F0EEE9E1DF85E40007BB4D2 /* Sources */,
+				3F0EEE9F1DF85E40007BB4D2 /* Frameworks */,
+				3F0EEEA01DF85E40007BB4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0EEEA41DF85E40007BB4D2 /* PBXTargetDependency */,
+			);
+			name = SherlockAppTests;
+			productName = SherlockAppTests;
+			productReference = 3F0EEEA21DF85E40007BB4D2 /* SherlockAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0EEEAC1DF85E40007BB4D2 /* SherlockAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0EEEBC1DF85E40007BB4D2 /* Build configuration list for PBXNativeTarget "SherlockAppUITests" */;
+			buildPhases = (
+				3F0EEEA91DF85E40007BB4D2 /* Sources */,
+				3F0EEEAA1DF85E40007BB4D2 /* Frameworks */,
+				3F0EEEAB1DF85E40007BB4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0EEEAF1DF85E40007BB4D2 /* PBXTargetDependency */,
+			);
+			name = SherlockAppUITests;
+			productName = SherlockAppUITests;
+			productReference = 3F0EEEAD1DF85E40007BB4D2 /* SherlockAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0EEE861DF85E3F007BB4D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = HChlebek;
+				TargetAttributes = {
+					3F0EEE8D1DF85E3F007BB4D2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F0EEEA11DF85E40007BB4D2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F0EEE8D1DF85E3F007BB4D2;
+					};
+					3F0EEEAC1DF85E40007BB4D2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F0EEE8D1DF85E3F007BB4D2;
+					};
+				};
+			};
+			buildConfigurationList = 3F0EEE891DF85E3F007BB4D2 /* Build configuration list for PBXProject "SherlockApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0EEE851DF85E3F007BB4D2;
+			productRefGroup = 3F0EEE8F1DF85E3F007BB4D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0EEE8D1DF85E3F007BB4D2 /* SherlockApp */,
+				3F0EEEA11DF85E40007BB4D2 /* SherlockAppTests */,
+				3F0EEEAC1DF85E40007BB4D2 /* SherlockAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0EEE8C1DF85E3F007BB4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0EEE9C1DF85E3F007BB4D2 /* LaunchScreen.storyboard in Resources */,
+				3F0EEE991DF85E3F007BB4D2 /* Assets.xcassets in Resources */,
+				3F0EEE971DF85E3F007BB4D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EEEA01DF85E40007BB4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EEEAB1DF85E40007BB4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0EEE8A1DF85E3F007BB4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0EEE941DF85E3F007BB4D2 /* ViewController.swift in Sources */,
+				3F0EEE921DF85E3F007BB4D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EEE9E1DF85E40007BB4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0EEEA71DF85E40007BB4D2 /* SherlockAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0EEEA91DF85E40007BB4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0EEEB21DF85E40007BB4D2 /* SherlockAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0EEEA41DF85E40007BB4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0EEE8D1DF85E3F007BB4D2 /* SherlockApp */;
+			targetProxy = 3F0EEEA31DF85E40007BB4D2 /* PBXContainerItemProxy */;
+		};
+		3F0EEEAF1DF85E40007BB4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0EEE8D1DF85E3F007BB4D2 /* SherlockApp */;
+			targetProxy = 3F0EEEAE1DF85E40007BB4D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0EEE951DF85E3F007BB4D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0EEE961DF85E3F007BB4D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0EEE9A1DF85E3F007BB4D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0EEE9B1DF85E3F007BB4D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0EEEB41DF85E40007BB4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0EEEB51DF85E40007BB4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0EEEB71DF85E40007BB4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SherlockApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.SherlockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F0EEEB81DF85E40007BB4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SherlockApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.SherlockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F0EEEBA1DF85E40007BB4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SherlockAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.SherlockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SherlockApp.app/SherlockApp";
+			};
+			name = Debug;
+		};
+		3F0EEEBB1DF85E40007BB4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SherlockAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.SherlockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SherlockApp.app/SherlockApp";
+			};
+			name = Release;
+		};
+		3F0EEEBD1DF85E40007BB4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SherlockAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.SherlockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SherlockApp;
+			};
+			name = Debug;
+		};
+		3F0EEEBE1DF85E40007BB4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SherlockAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HChlebek.SherlockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SherlockApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0EEE891DF85E3F007BB4D2 /* Build configuration list for PBXProject "SherlockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0EEEB41DF85E40007BB4D2 /* Debug */,
+				3F0EEEB51DF85E40007BB4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0EEEB61DF85E40007BB4D2 /* Build configuration list for PBXNativeTarget "SherlockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0EEEB71DF85E40007BB4D2 /* Debug */,
+				3F0EEEB81DF85E40007BB4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F0EEEB91DF85E40007BB4D2 /* Build configuration list for PBXNativeTarget "SherlockAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0EEEBA1DF85E40007BB4D2 /* Debug */,
+				3F0EEEBB1DF85E40007BB4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F0EEEBC1DF85E40007BB4D2 /* Build configuration list for PBXNativeTarget "SherlockAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0EEEBD1DF85E40007BB4D2 /* Debug */,
+				3F0EEEBE1DF85E40007BB4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0EEE861DF85E3F007BB4D2 /* Project object */;
+}
