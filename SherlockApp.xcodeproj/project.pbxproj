@@ -14,6 +14,9 @@
 		3F0EEE9C1DF85E3F007BB4D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0EEE9A1DF85E3F007BB4D2 /* LaunchScreen.storyboard */; };
 		3F0EEEA71DF85E40007BB4D2 /* SherlockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EEEA61DF85E40007BB4D2 /* SherlockAppTests.swift */; };
 		3F0EEEB21DF85E40007BB4D2 /* SherlockAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EEEB11DF85E40007BB4D2 /* SherlockAppUITests.swift */; };
+		3F0EEEC81DFEF9DA007BB4D2 /* SwiftyJSON 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EEEC71DFEF9DA007BB4D2 /* SwiftyJSON 2.swift */; };
+		3F0EEECA1E004F67007BB4D2 /* DetailGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0EEEC91E004F67007BB4D2 /* DetailGuideVC.swift */; };
+		3FF18A731E02EF99005D8D43 /* WebsiteVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF18A721E02EF99005D8D43 /* WebsiteVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3F0EEEAD1DF85E40007BB4D2 /* SherlockAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SherlockAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0EEEB11DF85E40007BB4D2 /* SherlockAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockAppUITests.swift; sourceTree = "<group>"; };
 		3F0EEEB31DF85E40007BB4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0EEEC71DFEF9DA007BB4D2 /* SwiftyJSON 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftyJSON 2.swift"; sourceTree = "<group>"; };
+		3F0EEEC91E004F67007BB4D2 /* DetailGuideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailGuideVC.swift; sourceTree = "<group>"; };
+		3FF18A721E02EF99005D8D43 /* WebsiteVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebsiteVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				3F0EEE911DF85E3F007BB4D2 /* AppDelegate.swift */,
 				3F0EEE931DF85E3F007BB4D2 /* ViewController.swift */,
 				3F0EEE951DF85E3F007BB4D2 /* Main.storyboard */,
+				3FF18A721E02EF99005D8D43 /* WebsiteVCViewController.swift */,
+				3F0EEEC91E004F67007BB4D2 /* DetailGuideVC.swift */,
 				3F0EEE981DF85E3F007BB4D2 /* Assets.xcassets */,
 				3F0EEE9A1DF85E3F007BB4D2 /* LaunchScreen.storyboard */,
 				3F0EEE9D1DF85E3F007BB4D2 /* Info.plist */,
+				3F0EEEC71DFEF9DA007BB4D2 /* SwiftyJSON 2.swift */,
 			);
 			path = SherlockApp;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF18A731E02EF99005D8D43 /* WebsiteVCViewController.swift in Sources */,
+				3F0EEECA1E004F67007BB4D2 /* DetailGuideVC.swift in Sources */,
 				3F0EEE941DF85E3F007BB4D2 /* ViewController.swift in Sources */,
+				3F0EEEC81DFEF9DA007BB4D2 /* SwiftyJSON 2.swift in Sources */,
 				3F0EEE921DF85E3F007BB4D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +517,7 @@
 				3F0EEEB81DF85E40007BB4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F0EEEB91DF85E40007BB4D2 /* Build configuration list for PBXNativeTarget "SherlockAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				3F0EEEBB1DF85E40007BB4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F0EEEBC1DF85E40007BB4D2 /* Build configuration list for PBXNativeTarget "SherlockAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				3F0EEEBE1DF85E40007BB4D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
